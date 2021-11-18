@@ -1,3 +1,10 @@
+This project use stack:
+1) HTML (HTML5)
+2) CSS (CSS3)
+3) Gulp (Node.js)
+4) JavaScript (ES6+)
+5) SCSS (SASS)
+
 To open a finished website, follow these easy steps:
 1) Copy this repository to any empty folder to your computer with a file with the extension - .zip
 2) Unzip the given repository to the folder where you moved it earlier
