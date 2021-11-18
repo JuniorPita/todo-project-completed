@@ -1,0 +1,130 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #F5F5F5;
+  color: #444;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  opacity: 0.4;
+}
+
+.title {
+  color: #8153af;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.title:hover {
+  color: #602897;
+}
+
+form {
+  max-width: 100%;
+  width: 400px;
+  -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+  border: none;
+  width: 100%;
+  color: #444;
+  display: block;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+}
+
+.input::-webkit-input-placeholder {
+  color: #D5D5D5;
+}
+
+.input::-moz-placeholder {
+  color: #D5D5D5;
+}
+
+.input:-ms-input-placeholder {
+  color: #D5D5D5;
+}
+
+.input::-ms-input-placeholder {
+  color: #D5D5D5;
+}
+
+.input::placeholder {
+  color: #D5D5D5;
+}
+
+.todos {
+  background-color: #FFF;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.todos li {
+  border-top: 1px solid #E5E5E5;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  -webkit-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.todos li.completed {
+  color: #B5B5B5;
+  text-decoration: line-through;
+}
+
+small {
+  margin-top: 3rem;
+  color: #B5B5B5;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+small:hover {
+  color: #c72b2b;
+}
+
+p {
+  font-size: 12px;
+  font-weight: 600;
+  color: grey;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+  margin: 0;
+  padding: 8px 0 0 0;
+}
+
+p:hover {
+  color: #a52ea5;
+}
+@supports (-webkit-appearance:none){
+
+}
